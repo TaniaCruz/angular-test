@@ -5,10 +5,10 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static('./dist/angular-test'));
+app.use(express.static('./dist/starwars-api'));
 
 app.get('/*', (req, res) =>
-    res.sendFile(path.join(__dirname + '/dist/angular-test/index.html'))
+    res.sendFile(path.join(__dirname + '/dist/starwars-api/index.html'))
 );
 
 // Start the app by listening on the default Heroku port
