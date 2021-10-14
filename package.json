@@ -8,7 +8,6 @@
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
         "server": "cd api && npm run dev",
-        "dev": "concurrently \"npm run server\" \"npm run start\"",
         "postinstall": "ng build --prod"
     },
     "private": true,
