@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  API_URL: 'http://localhost:3000'
+  API_URL: 'http://localhost:3000',
+  MARVEL_API_KEY: '5c72faec80a63e8bb3de728536ad199d',
 };
 
 /*

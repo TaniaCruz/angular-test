@@ -1,6 +1,7 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
 import { AuthService } from '../auth/auth.service';
+import { MarvelService } from './marvel.service';
 import { StarwarsService } from './starwars.service';
 
 @Component({
@@ -15,6 +16,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   };
 
   constructor(public authSvc: AuthService,
+    public mvlSvc: MarvelService,
     public stwSvc: StarwarsService
   ) { }
 
@@ -23,10 +25,10 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
  
   ngOnInit(): void {
-    this.getStarWarsFilms()
+    this.getMarvelComics()
   }
 
-  getStarWarsFilms(): Subscription {
+  getMarvelComics(): Subscription {
     return this.subscription.add(
       this.stwSvc.getFilms().subscribe( res => {
         if (res) {
