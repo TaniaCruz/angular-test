@@ -1,0 +1,16 @@
+<div>
+    <h1 class="title">Películas de Star Wars</h1>
+</div>
+<mat-grid-list cols="3" rowHeight="350px" gutterSize="15px">
+    <mat-grid-tile *ngFor="let film of data.results" style="margin-top: 10px !important;">
+        <mat-card>
+            <mat-card-content>
+                <h3>{{ film['episode_id'] }}. {{ film['title'] }}</h3>
+                <h4>Director: {{ film['director'] }}</h4>
+                <h5>Productor: {{ film['producer'] }}</h5>
+                <h6>Opening: </h6>
+                <p>{{ film['opening_crawl'] }}</p>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>

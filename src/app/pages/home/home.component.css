@@ -1,0 +1,25 @@
+.news-feed {
+    max-width: 400px;
+    margin-bottom: 5px;
+    height: 100%;
+    height: 500px;
+}
+
+.align-left {
+    text-align: right;
+}
+
+.search-form {
+    padding: 4rem 1rem;
+}
+
+.search-form .full-width-input {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 1rem;
+    color: yellow;
+    background-color: black;
+}
