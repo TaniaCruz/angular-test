@@ -11,7 +11,7 @@
         "serverprod": "cd api && npm run prod",
         "dev": "concurrently \"npm run server\" \"npm run start\"",
         "prod": "concurrently \"npm run serverprod\" \"npm run start\"",
-        "postinstall": "concurrently \"npm run server\" \"npm run start\""
+        "postinstall": "concurrently \"npm run serverprod\" \"npm run start\""
     },
     "private": true,
     "dependencies": {
