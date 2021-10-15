@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "tsc": "tsc",
-        "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+        "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+        "prod": "ts-node --respawn --transpile-only ./src/index.ts"
     },
     "author": "Luis Angel Romero Escalona",
     "license": "ISC",
