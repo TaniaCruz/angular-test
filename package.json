@@ -31,9 +31,7 @@
         "concurrently": "^6.3.0",
         "rxjs": "~6.6.0",
         "tslib": "^2.3.0",
-        "zone.js": "~0.11.4"
-    },
-    "devDependencies": {
+        "zone.js": "~0.11.4",
         "@types/jasmine": "~3.8.0",
         "@types/node": "^12.11.1",
         "jasmine-core": "~3.8.0",
@@ -42,6 +40,9 @@
         "karma-coverage": "~2.0.3",
         "karma-jasmine": "~4.0.0",
         "karma-jasmine-html-reporter": "~1.7.0"
+    },
+    "devDependencies": {
+
     },
     "engines": {
         "node": "12.16.1",
