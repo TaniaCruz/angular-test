@@ -8,7 +8,7 @@
         "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
         "prod": "ts-node --respawn --transpile-only ./src/index.ts"
     },
-    "author": "Luis Angel Romero Escalona",
+    "author": "Viridiana Tania Cruz Chavez",
     "license": "ISC",
     "devDependencies": {
         "@types/bcryptjs": "^2.4.2",
